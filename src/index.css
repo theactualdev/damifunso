@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Inter:wght@300;400;500;600;700&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --color-sax-gold: 212, 175, 55;
+    --color-sax-bronze: 205, 127, 50;
+    --color-sax-navy: 27, 31, 59;
+    --color-sax-black: 10, 10, 10;
+    --color-sax-cream: 250, 246, 240;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  body {
+    @apply bg-sax-black text-sax-cream font-body;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  /* Custom scrollbar */
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  ::-webkit-scrollbar-track {
+    @apply bg-sax-black;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    @apply bg-sax-gold rounded-full;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    @apply bg-sax-bronze;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-sax-gold text-sax-black px-8 py-4 rounded-full font-semibold text-lg transition-all duration-300 hover:bg-sax-bronze hover:scale-105 hover:shadow-lg;
+  }
+
+  .btn-secondary {
+    @apply border-2 border-sax-gold text-sax-gold px-8 py-4 rounded-full font-semibold text-lg transition-all duration-300 hover:bg-sax-gold hover:text-sax-black hover:scale-105;
+  }
+
+  .section-padding {
+    @apply px-6 md:px-12 lg:px-24 xl:px-32;
+  }
+
+  .heading-1 {
+    @apply font-display text-5xl md:text-6xl lg:text-7xl font-bold leading-tight;
+  }
+
+  .heading-2 {
+    @apply font-display text-3xl md:text-4xl lg:text-5xl font-bold leading-tight;
+  }
+
+  .heading-3 {
+    @apply font-display text-2xl md:text-3xl font-bold;
+  }
+
+  .text-gradient {
+    @apply bg-gradient-to-r from-sax-gold to-sax-bronze bg-clip-text text-transparent;
+  }
+}
