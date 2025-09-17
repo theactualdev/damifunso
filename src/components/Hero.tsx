@@ -30,7 +30,7 @@ const Hero = () => {
           >
             <span className="block">Dami Funso</span>
             <span className="text-gradient block text-4xl md:text-5xl lg:text-6xl mt-2">
-              Premium Nigerian Saxophonist
+              Premium Saxophonist
             </span>
           </motion.h1>
 
@@ -60,7 +60,7 @@ const Hero = () => {
               Watch on Instagram
             </a>
             <a
-              href="mailto:damifunso@gmail.com"
+              href="mailto:theglobaldf@gmail.com"
               className="btn-secondary flex items-center gap-3 group"
             >
               <FaPlay className="group-hover:translate-x-1 transition-transform" />

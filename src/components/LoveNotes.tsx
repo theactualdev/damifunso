@@ -51,9 +51,7 @@ const LoveNotes = () => {
                 that celebrates love, culture and premium artistry. It blends
                 soulful saxophone performances, heartfelt vocals and curated
                 romantic storytelling designed for lovers, dreamers and premium
-                audiences — growing in quality and prestige annually. The 2026
-                edition aims for a more refined experience and marks five years
-                since inception.
+                audiences — growing in quality and prestige annually.
               </p>
             </motion.div>
 

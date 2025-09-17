@@ -6,6 +6,7 @@ import {
   FaEnvelope,
   FaPhone,
   FaMapMarkerAlt,
+  FaYoutube,
 } from "react-icons/fa";
 import { useState } from "react";
 
@@ -57,6 +58,12 @@ const Contact = () => {
       url: "https://www.instagram.com/dami_funso/",
       label: "Instagram",
       color: "hover:text-pink-500",
+    },
+    {
+      icon: FaYoutube,
+      url: "https://youtube.com/@damifunso?si=ZkW-q_u4CNuZZZ0M",
+      label: "YouTube",
+      color: "hover:text-red-500",
     },
     {
       icon: FaWhatsapp,
@@ -174,12 +181,12 @@ const Contact = () => {
                 <h3 className="heading-3 mb-6">Direct Contact</h3>
                 <div className="space-y-4">
                   <motion.a
-                    href="mailto:damifunso@gmail.com"
+                    href="mailto:theglobaldf@gmail.com"
                     className="flex items-center gap-4 text-sax-cream/80 hover:text-sax-gold transition-colors"
                     whileHover={{ x: 5 }}
                   >
                     <FaEnvelope className="text-sax-gold text-xl" />
-                    <span>damifunso@gmail.com</span>
+                    <span>theglobaldf@gmail.com</span>
                   </motion.a>
 
                   <motion.a

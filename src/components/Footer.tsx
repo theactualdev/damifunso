@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { FaInstagram, FaHeart, FaWhatsapp } from "react-icons/fa";
+import { FaInstagram, FaHeart, FaWhatsapp, FaYoutube } from "react-icons/fa";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -21,6 +21,11 @@ const Footer = () => {
       icon: FaInstagram,
       url: "https://www.instagram.com/dami_funso/",
       label: "Instagram",
+    },
+    {
+      icon: FaYoutube,
+      url: "https://youtube.com/@damifunso?si=ZkW-q_u4CNuZZZ0M",
+      label: "YouTube",
     },
     { icon: FaWhatsapp, url: "https://wa.me/2348186204823", label: "Whatsapp" },
   ];

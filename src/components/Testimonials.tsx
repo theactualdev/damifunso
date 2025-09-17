@@ -13,7 +13,7 @@ const Testimonials = () => {
       id: 1,
       quote:
         "Damifunso's performance was nothing short of magical. His saxophone doesn't just play notes; it tells stories that resonate with the soul.",
-      author: "Adekunle Gold",
+      // author: "Adekunle Gold",
       role: "Artiste",
       rating: 5,
     },
@@ -21,7 +21,7 @@ const Testimonials = () => {
       id: 2,
       quote:
         "In my 30 years of organizing jazz festivals, I've rarely witnessed such command of the instrument combined with genuine emotional depth.",
-      author: "Timi Dakolo",
+      // author: "Timi Dakolo",
       role: "Artiste",
       rating: 5,
     },
@@ -29,7 +29,7 @@ const Testimonials = () => {
       id: 3,
       quote:
         "The way Damifunso blends traditional jazz with contemporary influences creates a sound that's both timeless and refreshingly modern.",
-      author: "Femi Kuti",
+      // author: "Femi Kuti",
       role: "Artiste",
       rating: 5,
     },
@@ -93,9 +93,9 @@ const Testimonials = () => {
                   </p>
 
                   <div className="border-t border-sax-gold/20 pt-4">
-                    <p className="font-semibold text-sax-cream">
+                    {/* <p className="font-semibold text-sax-cream">
                       {testimonial.author}
-                    </p>
+                    </p> */}
                     <p className="text-sm text-sax-cream/60">
                       {testimonial.role}
                     </p>

@@ -1,7 +1,7 @@
 import { Resend } from "resend";
 
 const resend = new Resend(process.env.RESEND_API_KEY);
-const TO_EMAIL = process.env.TO_EMAIL || "damifunso@gmail.com";
+const TO_EMAIL = process.env.TO_EMAIL || "theglobaldf@gmail.com";
 const FROM_EMAIL = process.env.FROM_EMAIL || "noreply@theactualdev.live";
 
 export default async function handler(req, res) {

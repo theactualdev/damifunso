@@ -8,7 +8,7 @@ app.use(cors());
 app.use(express.json());
 
 const resend = new Resend(process.env.RESEND_API_KEY);
-const TO_EMAIL = "olayinkacodes@gmail.com";
+const TO_EMAIL = "theglobaldf@gmail.com";
 const FROM_EMAIL = "noreply@theactualdev.live";
 
 app.post("/api/contact", async (req, res) => {
