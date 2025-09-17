@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
-import { FaAward, FaMusic, FaGlobe } from "react-icons/fa";
+import { FaMusic } from "react-icons/fa";
 
 const About = () => {
   const [ref, inView] = useInView({
@@ -8,11 +8,11 @@ const About = () => {
     threshold: 0.1,
   });
 
-  const achievements = [
-    { icon: FaAward, text: "15+ Years Experience" },
-    { icon: FaMusic, text: "500+ Performances" },
-    { icon: FaGlobe, text: "30+ Countries" },
-  ];
+  // const achievements = [
+  //   { icon: FaAward, text: "15+ Years Experience" },
+  //   { icon: FaMusic, text: "500+ Performances" },
+  //   { icon: FaGlobe, text: "30+ Countries" },
+  // ];
 
   return (
     <section id="about" className="py-20 bg-sax-navy/20" ref={ref}>

@@ -3,9 +3,6 @@ import { useInView } from "react-intersection-observer";
 import {
   FaInstagram,
   FaWhatsapp,
-  FaYoutube,
-  FaSpotify,
-  FaFacebook,
   FaEnvelope,
   FaPhone,
   FaMapMarkerAlt,

@@ -35,25 +35,25 @@ const Testimonials = () => {
     },
   ];
 
-  const pressQuotes = [
-    {
-      id: 1,
-      publication: "The New York Times",
-      quote:
-        "A masterful performance that redefines what the saxophone can do in the 21st century.",
-    },
-    {
-      id: 2,
-      publication: "Jazz Weekly",
-      quote: "Damifunso is not just playing jazz; he's evolving it.",
-    },
-    {
-      id: 3,
-      publication: "BBC Music Magazine",
-      quote:
-        "An artist who bridges generations with his innovative yet respectful approach to jazz.",
-    },
-  ];
+  // const pressQuotes = [
+  //   {
+  //     id: 1,
+  //     publication: "The New York Times",
+  //     quote:
+  //       "A masterful performance that redefines what the saxophone can do in the 21st century.",
+  //   },
+  //   {
+  //     id: 2,
+  //     publication: "Jazz Weekly",
+  //     quote: "Damifunso is not just playing jazz; he's evolving it.",
+  //   },
+  //   {
+  //     id: 3,
+  //     publication: "BBC Music Magazine",
+  //     quote:
+  //       "An artist who bridges generations with his innovative yet respectful approach to jazz.",
+  //   },
+  // ];
 
   return (
     <section id="testimonials" className="py-20 bg-sax-black" ref={ref}>
