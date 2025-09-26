@@ -63,7 +63,7 @@ const About = () => {
               className="space-y-6"
             >
               <p className="text-lg text-sax-cream/80 leading-relaxed">
-                Dami Funso is a premium Nigerian saxophonist and performing
+                Dami Funso is a premium Global saxophonist and performing
                 artiste whose sound transcends notes — it speaks the language of
                 soul, elegance and deep emotion. Known for his captivating stage
                 presence and signature style, Dami blends jazz, Afrobeat, soul

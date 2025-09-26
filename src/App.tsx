@@ -5,7 +5,7 @@ import About from "./components/About";
 // import MusicShowcase from "./components/MusicShowcase";
 // import Portfolio from "./components/Portfolio";
 import LoveNotes from "./components/LoveNotes";
-import Testimonials from "./components/Testimonials";
+// import Testimonials from "./components/Testimonials";
 // import Events from "./components/Events";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
@@ -24,7 +24,7 @@ function App() {
         <LoveNotes />
         {/* <Flyers /> */}
         <Gallery />
-        <Testimonials />
+        {/* <Testimonials /> */}
         <Contact />
       </main>
       <Footer />
